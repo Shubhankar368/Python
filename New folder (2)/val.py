@@ -1,0 +1,10 @@
+val=[10,20,30,40,1,2,3,100,200]
+print(val[0:3])
+print(val[3:8])
+print(val[-4:-1])
+val2=(val[2:-2])
+print(val2)
+print(val2[0:])
+print(val[::-1])
+val[5]=101
+print(val[-8:-2])
